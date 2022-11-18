@@ -1,0 +1,144 @@
+@media screen and (min-width: 990px) {
+	.container{
+		max-width: 1210px;
+	}
+	.cheep_items,
+	.team_items,
+	.course_items{
+		display: flex;
+		justify-content: space-between;
+	}
+	.course_items{
+		max-width: 1180px;
+		margin: 0 auto;
+	}
+	.course_item{
+		width: calc(100% / 3);
+		padding: 35px 20px;
+	}
+	.cheep_item,
+	.team_item{
+		width: calc(33.3% - 10px);
+		max-width: 345px
+	}
+	.section .section_txt{
+		max-width: 836px;
+		padding-bottom: 50px;
+		font-size: 22px;
+		line-height: 27px;
+	}
+	.section_title{
+		padding-bottom: 25px;
+		font-size: 34px;
+		line-height: 41px;
+	}
+	.section{
+		padding: 70px 0;
+	}
+	.burger{
+		display: none
+	}
+	.nav,
+	.head_btn{
+		display: block;
+	}
+	.menu{
+		display: flex
+	}
+	.btn-head{
+		background: linear-gradient(180deg, #8CE900 0%, #75B712 100%);
+		border: 1px solid #C2FF65;
+		box-shadow: 0px 19px 19px -15px rgba(43, 43, 43, 0.25);
+		border-radius: 10px;
+		width: 200px;
+		line-height: 50px;
+		font-weight: 600;
+		font-size: 12px;
+	}
+	.btn-head:hover{
+		box-shadow: 0px 19px 19px -5px rgba(43, 43, 43, 0.25);
+	}
+	.menu_item{
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 35px;
+		margin-right: 70px
+	}
+	.menu_item:last-child{
+		margin-right: 0
+	}
+	.main_tag{
+		font-size: 22px;
+		line-height: 27px;
+		display: inline-block;
+		margin: 30px 0 0;
+		max-width: 100%;
+	}
+	.main_in{
+		padding: 20px 0 30px;
+	}
+	h1{
+		font-size: 86px;
+		line-height: 105px;
+		text-align: left;
+		max-width: 620px;
+	}
+	.main_txt{
+		text-align: left;
+		margin: 0 0 40px;
+	}
+	.btn-main{
+		margin: 0
+	}
+	.main_in{
+		display: flex;
+		justify-content: space-between;
+	}
+	.main_info{
+		width: 490px;
+	}
+	.main_img{
+		width: calc(100% - 500px);
+		max-width: 570px
+	}
+	.main_img::before,
+	.main_img::after{
+		display: none
+	}
+	.main{
+		background-image: url(../img/main-bg-big.jpg);
+		padding-top: 50px;
+	}
+	.main::before{
+		top: 230px;
+		left: 50%;
+		margin-left: -890px;
+		width: 493px;
+		height: 690px;
+		background: url(../img/leaf-1-big.png) center no-repeat;
+	}
+	.main::after{
+		top: 0;
+		right: 50%;
+		margin-right: -890px;
+		width: 719px;
+		height: 808px;
+		background: url(../img/leaf-2-big.png) center no-repeat;
+	}
+	.cheep{
+		padding-top: 0
+	}
+	.main-wrap{
+		padding-bottom: 70px;
+		overflow: hidden;
+	}
+	.quiz{
+		padding-top: 0;
+	}
+	.scene.active{
+		padding-top: 100px;
+	}
+	.question__img{
+		top: 120px;
+	}
+}
